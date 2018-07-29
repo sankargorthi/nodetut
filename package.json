@@ -1,21 +1,22 @@
 {
-  "name": "nodetut",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "babel-node src/server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  },
-  "babel": {
-    "presets": [
-      "env"
-    ]
-  }
+    "name": "nodetut",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "babel-node src/server.js",
+        "builtins": "babel-node src/built-ins.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0"
+    },
+    "babel": {
+        "presets": [
+            "env"
+        ]
+    }
 }
