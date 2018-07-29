@@ -1,7 +1,7 @@
 import os from 'os';
 
 function toMb(f) {
-    return Math.round(((f / 1024 / 1024) * 100) / 100);
+  return Math.round(((f / 1024 / 1024) * 100) / 100);
 }
 
 console.log(`Host: ${os.hostname()}`);
